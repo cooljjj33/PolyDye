@@ -4,7 +4,7 @@
 
 The **PolyDye Full Color 3D Printer Mod** brings vibrant, full-color printing to Marlin-based printers by integrating inkjet printing technology directly into your 3D printer workflow. This modification applies ink layers between white filament layers to color your model.
 
-⚠️ **Disclaimer:** The software is currently in **beta**, and this repository is **not yet complete**. Expect frequent updates and experimental features.
+⚠️ **Disclaimer:** The software is currently in **beta**, and this repository is **not yet complete**. Expect frequent updates and experimental features. We will be adding the rest of the files over the next month or 3...
 
 ---
 
@@ -16,7 +16,7 @@ The **PolyDye Full Color 3D Printer Mod** brings vibrant, full-color printing to
 - **[Calibration Guide](https://www.level9000.co.za/Calibration.html)**  
   Detailed instructions for calibrating your printer for full-color prints.
 
-- **[Hardware Requirements](TBA)**  
+- **[Hardware Requirements](https://www.level90003dprintedmodels.com/shop)**  
   A list of required parts and where to obtain them.
 
 ---
