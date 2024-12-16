@@ -1,0 +1,53 @@
+;BEFORE_LAYER_CHANGE
+;[layer_z]
+G92 E0
+{if layer_num == 1 || layer_num == 1 || layer_num == 1 || layer_num == 1 || layer_num == 80}G0 X0 Y0 F4000
+G4 S13{endif}
+
+
+
+;LAYER_CHANGE
+{if layer_num > 0};G1 X5 Y165 F4000
+M400
+;@snaap
+;@INK_START
+;G1 X0 F6000
+;G1 X7 F6000
+;G1 X0 F6000
+;G1 X7 F6000
+;G1 X0 F6000
+;G1 X7 F6000
+G92 E0
+;STRIP_1_B
+;STRIP_1_E
+;STRIP_2_B
+;STRIP_2_E
+;STRIP_3_B
+;STRIP_3_E
+;STRIP_4_B
+;STRIP_4_E
+;STRIP_5_B
+;STRIP_5_E
+;STRIP_6_B
+;STRIP_6_E
+;STRIP_7_B
+;STRIP_7_E
+;STRIP_8_B
+;STRIP_8_E
+;STRIP_9_B
+;STRIP_9_E
+;STRIP_10_B
+;STRIP_10_E
+;STRIP_11_B
+;STRIP_11_E
+;STRIP_12_B
+;STRIP_12_E
+;STRIP_13_B
+;STRIP_13_E
+;STRIP_14_B
+;STRIP_14_E
+;@INK_END{endif}
+
+
+
+
