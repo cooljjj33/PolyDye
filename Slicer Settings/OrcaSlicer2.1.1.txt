@@ -1,3 +1,11 @@
+; START GCODE
+....
+;place after G29 or if G29 not present after G28
+M420 Z0
+....
+
+
+
 ;BEFORE_LAYER_CHANGE
 ;[layer_z]
 G92 E0
