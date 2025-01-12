@@ -6,6 +6,9 @@ The **PolyDye Full Color 3D Printer Mod** brings vibrant, full-color printing to
 
 ⚠️ **Disclaimer:** The software is currently in **beta**, and this repository is **not yet complete**. Expect frequent updates and experimental features. We will be adding the rest of the files over the next month or 3...
 
+## Disclaimer
+
+This project is provided "as is" without warranty of any kind, either express or implied. The author is not liable for any damages resulting from the use of this project.
 ---
 
 ## Quick Links
