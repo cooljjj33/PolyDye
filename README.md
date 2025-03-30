@@ -9,8 +9,61 @@ The **PolyDye Full Color 3D Printer Mod** brings vibrant, full-color printing to
 ## Disclaimer
 
 This project is provided "as is" without warranty of any kind, either express or implied. The author is not liable for any damages resulting from the use of this project.
+
 ---
 
+## ChangeLog
+[v1.14] – 2025-03-30
+
+Added
+
+    Improved color performance on more opaque filaments.
+    (Tested on Creality Hyper Series White and CR-PLA White(best))
+
+    "Auto Apply" button to automatically apply and save offsets after clicking Store Ink and Calculate.
+
+    Enhanced fine detail printing for sharper and more accurate output.
+
+Changed
+
+    Nozzles now fire more reliably and consistently.
+
+    OrcaSlicer thumbnails are no longer required.
+
+    XY alignment process simplified:
+
+        Second square is now automatically scaled for ink square alignment.
+
+        Only positioning is needed after storing filament.
+
+        Offset application is streamlined with the new Auto Apply button.
+
+Fixed
+
+    Corrected rounding artifacts in color bands around low-poly square geometry.
+
+Removed
+
+    YohY alignment system:
+
+        Hot calibration buttons for YohY have been deprecated.
+
+        Users must now manually set the YohY alignment value to 184000 in settings and not change it.
+
+Known Issues
+
+    The unit must be power-cycled before each print and after stopping an unfinished print, or it may continue sending G-code and risk damaging the printer.
+
+    Intermittent freezing: The print may randomly stop during operation. Monitor your prints and avoid leaving the unit unattended.
+
+Notes
+
+    This release is for Marlin firmware only.
+
+    A Klipper build is in progress and will be released in a few days pending a fix.
+
+---
+	
 ## Quick Links
 
 - **[Assembly Instructions](https://www.level9000.co.za/How-To.html)**  
