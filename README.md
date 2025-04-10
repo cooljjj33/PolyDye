@@ -13,6 +13,31 @@ This project is provided "as is" without warranty of any kind, either express or
 ---
 
 ## ChangeLog
+[v1.15] – 2025-04-10
+
+Fixed
+
+    Alignment errors are now minimized and should not occur as frequently
+
+Changed
+
+    YOhY Hot buttons have been removed. 
+
+    XY Hot alignment up and down buttons have been inverted so that the up button moves the ink towards the back of the bed and the down button moves the ink to the front of the bed. 
+
+Known Issues
+
+    The unit must be power-cycled before each print and after stopping an unfinished print, or it may continue sending G-code and risk damaging the printer.
+
+    Intermittent freezing: The print may randomly stop during operation. Monitor your prints and avoid leaving the unit unattended.
+
+Notes
+
+    This release is for Marlin firmware only.
+
+    A Klipper build is in progress and will be released in a few days pending a fix.
+
+
 [v1.14] – 2025-03-30
 
 Added
