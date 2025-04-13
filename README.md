@@ -13,6 +13,13 @@ This project is provided "as is" without warranty of any kind, either express or
 ---
 
 ## ChangeLog
+
+Due to the recent opacity changes I introduced an issue where one of the processors were starved casuing some issues including causing the print to fail right after G29. With this build I address this. If you level with every print and have a G29 in your start gcode, please add the following line below the G29
+
+;waitforlevel
+
+This should allow the print to continue after level. It has a side effect where the Y Offset needs to be adjusted by 5.9mm to get it in the correct place again.
+
 [v1.15] – 2025-04-10
 
 Fixed
