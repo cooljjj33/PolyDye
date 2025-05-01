@@ -2,6 +2,12 @@
 
 This folder contains the necessary files to update your unit. Follow the steps below to ensure a successful update process.
 
+This folder contains 2 versions:
+1. /LookAhead: Implements a lookahead to accomodate prints not starting due to invalid Marlin ok responses. Uses YOhY Alignment and has improved image clarity on flat vertical surfaces.
+2. /NoLookAhead: This is the previously released version(1.15) that some users reported issues with but functional for others. Waits for Marlin Ok before continuing, Does not use YohY alignment. May produce vertical wall artefacts.
+
+Please only flash the contents of one folder to your unit as not to overwrite previous version.
+
 ## How to Use
 
 1. **Prepare an SD Card**
