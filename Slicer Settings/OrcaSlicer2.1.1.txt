@@ -9,7 +9,7 @@ M420 Z0
 ;BEFORE_LAYER_CHANGE
 ;[layer_z]
 G92 E0
-{if layer_num == 1 || layer_num == 1 || layer_num == 1 || layer_num == 1 || layer_num == 80}G0 X0 Y0 F4000
+{if layer_num == 1 || layer_num == 1 || layer_num == 1 || layer_num == 1 || layer_num == 1}G0 X0 Y0 F4000
 G4 S13{endif}
 
 
@@ -19,6 +19,8 @@ G4 S13{endif}
 M400
 ;@snaap
 ;@INK_START
+M400
+G4 P0
 ;G1 X0 F6000
 ;G1 X7 F6000
 ;G1 X0 F6000
