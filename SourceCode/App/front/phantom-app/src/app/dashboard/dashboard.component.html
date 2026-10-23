@@ -1,0 +1,72 @@
+<!--
+SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+SPDX-License-Identifier: LicenseRef-NCL-1.0
+
+Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+-->
+<!DOCTYPE html>
+<html>
+<title>Polyprint 3D Printer Control v{{version}}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body style="color: black;background-color: white;">
+  <div *ngIf="getOffset()">
+    <app-image-display></app-image-display>
+  </div>
+  <div *ngIf="!getOffset()">
+    <div class="w3-container w3-blue" style="padding-bottom: 50px;">
+      <div class="w3-blue" style="position: absolute; width: 100%; left: 0;">
+        <div class="w3-image"><img src="assets/img/printicon.png"
+            style="width:100%;max-width:80px;max-height:80px;float:left; position: fixed;" />
+          <div class="w3-margin-top" style="float:left; line-height: 1pt; height:33px;">
+            <h1 class="phantom-heading" style="width: 100%; padding-top:0px;margin-left: 60px;">PolyPrint</h1><span style="padding-left: 100%;">v{{version}}</span>
+          </div>
+
+          <div class="w3-dropdown-hover" style="
+        position: absolute;
+        right: 100px;
+        top: 0;">
+            <button class="w3-button" style="right: -100px !important; position:absolute; height:50px; width:50px">
+              <fa-icon [icon]="faBars"></fa-icon>
+            </button>
+            <div class="w3-dropdown-content dropdown-content" style="right:-100px; top:50px;">
+              <a href="#">Home</a>
+              <a href="#" (click)="openOffsets()">Cartridge Offsets</a>
+              <a href="#" (click)="openPrinterModal()">Printer Settings</a>
+              <a href="#" (click)="openWifiModal()">Wifi Settings</a>
+              <a href="#">About</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-wifi-settings-modal></app-wifi-settings-modal>
+    <app-printer-settings-modal></app-printer-settings-modal>
+    <div class="flex-container blue-gray">
+      <div class="w3-container container">
+        <app-connection></app-connection>
+      </div>
+      <div class="w3-container container mid-gray">
+        <app-printercontrol></app-printercontrol>
+      </div>
+      <div class="w3-container container mid-gray">
+        <h2 style="margin-top:25px">Camera</h2>
+        <div style="min-height:300px">
+          <img src="{{printerSettings.cam_url}}" alt="{{printerSettings.cam_url}}" class="shrinkToFit" width="640"
+            height="335">
+        </div>
+      </div>
+      <div class="w3-container container blue-gray">
+        <app-filemanager></app-filemanager>
+      </div>
+
+      <div class="w3-container container blue-gray">
+        <app-terminal></app-terminal>
+      </div>
+      <div class="w3-container container blue-gray">
+        <app-printscreen></app-printscreen>
+      </div>
+
+    </div>
+  </div>

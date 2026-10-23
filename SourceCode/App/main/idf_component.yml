@@ -1,0 +1,14 @@
+## IDF Component Manager Manifest File
+dependencies:
+  espressif/mdns: "^1.0.3"
+  usb_host_cdc_acm: "^2"
+  usb_host_ch34x_vcp: "^2"
+  usb_host_cp210x_vcp: "^2"
+  usb_host_ftdi_vcp: "^2"
+  usb_host_vcp: "^1"
+  esp_jpeg: ">=1.0.2"
+  idf: ">=5.0.0"
+  espressif/led_strip: "^2.0.0"
+  ## Required IDF version
+
+    

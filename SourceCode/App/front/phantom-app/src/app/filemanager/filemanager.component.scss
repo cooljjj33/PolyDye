@@ -1,0 +1,34 @@
+/*
+ * SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+ * SPDX-License-Identifier: LicenseRef-NCL-1.0
+ * 
+ * Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+ * Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+ */
+.progress-bar {
+  background-color: #444;
+  border-radius: 2px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.progress-bar-fill {
+
+  text-align: right;
+  padding-right: 5px;
+  border-radius: 2px;
+
+}
+.progress-container {
+  display: flex;
+  align-items: left;
+  margin-bottom: 10px;
+
+}
+
+.progress-inner {
+  height: auto;  
+  background-color: #4CAF50 ;  
+
+  position: relative;
+}

@@ -1,0 +1,43 @@
+<!--
+SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+SPDX-License-Identifier: LicenseRef-NCL-1.0
+
+Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+-->
+<div class="container" (mousemove)="onMouseMove2($event)">
+  <div class="controls-section">
+    <div class="triangle-bottom-right"></div>
+    <div class="controls">
+      <div class="grid-density">
+        <label>Grid Density: <input type="number" [(ngModel)]="gridDensity" placeholder="Enter grid density"></label>
+        <button class="w3-button w3-ripple w3-blue w3-opacity-min" (click)="applyGrid()">Apply Grid</button>
+      </div>
+
+      <div class="store-properties">
+        <button class="w3-button w3-ripple w3-blue w3-opacity-min"(click)="storePropertiesForFirstButton()">Store Filament Position</button>
+        <button class="w3-button w3-ripple w3-blue w3-opacity-min"(click)="storePropertiesForSecondButton()">Store Ink Position</button>
+      </div>
+
+      <div class="calculate-controls">
+        <button class="w3-button w3-ripple w3-blue w3-opacity-min"(click)="calculateOffset2()">Calculate</button>
+        <br/>
+
+      </div>
+      <span>Offset X (mm): {{ offsetXmm | number:'1.2-2' }}</span>
+        <span>Offset Y (mm): {{ offsetYmm | number:'1.2-2' }}</span>
+      <button class="w3-button w3-ripple w3-blue w3-opacity-min"(click)="sendMove('ALL')">AutoApply</button>
+
+      <button class="w3-button w3-ripple w3-blue w3-opacity-min" (click)="setOff()">Close</button>
+
+      </div>
+    </div>
+  <div class="canvas-section" (mouseup)="onMouseUp2($event)">
+    <input class="file-input" type="file" (change)="onImageSelected($event)" accept="image/jpeg">
+    <canvas class="image-canvas" #imageCanvas width="1000" height="800"></canvas>
+    <div class="corner" #topLeft></div>
+    <div class="arrow-curved" #topRight (mousedown)="onMouseDown2($event,'rotate')"></div>
+    <div class="stitched" #bottomLeft (mousedown)="onMouseDown2($event,'move')"></div>
+    <div class="triangle-bottom-right" #bottomRight (mousedown)="onMouseDown2($event,'scale')"></div>
+  </div>
+</div>

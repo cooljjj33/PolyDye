@@ -1,0 +1,25 @@
+<!--
+SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+SPDX-License-Identifier: LicenseRef-NCL-1.0
+
+Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+-->
+<div class="w3-button w3-block w3-left-align" (click)="settingsCollapsed = !settingsCollapsed"
+  style="padding: 0 !important; margin-top: 25px;">
+  <h2>Model<fa-icon *ngIf="settingsCollapsed" [icon]="faArrowRight" class="icon-position"
+      style="font-size: medium; padding-left: 2%;"></fa-icon><fa-icon *ngIf="!settingsCollapsed" [icon]="faArrowDown"
+      style="font-size: medium; padding-left: 2%"></fa-icon></h2>
+</div>
+
+<div [ngClass]="{'w3-hide': infoCollapsed}">
+  <li class="w3-bar">
+    <div class="">
+
+      <h2>{{selectedFile}}</h2>
+    </div>
+  </li>
+</div>
+<div>
+  <img *ngIf="thumbnailSrc" [src]="thumbnailSrc" alt="G-code Thumbnail" style="margin: 0 auto;"/>
+</div>

@@ -1,0 +1,137 @@
+/*
+ * SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+ * SPDX-License-Identifier: LicenseRef-NCL-1.0
+ * 
+ * Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+ * Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+ */
+.selected {
+  border: 2px solid black;
+}
+
+body {
+
+  margin: 0;
+
+}
+
+@media not print {
+  .shrinkToFit {
+    width: 100%;
+  }
+}
+
+img {
+  display: block;
+}
+
+.scrollable-div {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 75%;
+  border-top: 1px solid black;
+  margin-top: 5px;
+}
+
+.container {
+  width: 100%;
+
+  box-sizing: border-box;
+  border: 1px solid black;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 50px);
+  flex-wrap: wrap;
+}
+
+.top-bar {
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.top-bar .icon {
+  font-size: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 50%;
+    height: calc((100vh - 50px) / 3);
+  }
+  .phantom-heading {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 33.33%;
+    height: calc((100vh - 50px) / 2);
+  }
+  .phantom-heading {
+    margin-left: 10%;
+  }
+}
+
+.w3-blue {
+  background-color: #3d4c5f !important;
+}
+
+.w3-blue-gray {
+  background-color: #929292 !important;
+}
+
+h2,span{
+  color: black;
+}
+
+h3{
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.font-large {
+  font-size: 1.25em;
+}
+
+.margin-top-s {
+  margin-top: 20px;
+}
+
+.phantom-heading {
+  margin-left: 30%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #c0c0c0;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

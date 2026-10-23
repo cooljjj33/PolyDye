@@ -1,0 +1,322 @@
+# Noncommercial Copyleft License 1.0
+
+Copyright CMY Labs PTY LTD © 2026
+
+Permission to use CMY Labs Material, as defined in Section 20, is granted under this license. Third-Party Material remains under its applicable upstream terms.
+
+## 1. Permissions
+
+Subject to this license, you may:
+
+- use the Software;
+- study the Software;
+- copy the Software;
+- modify the Software;
+- create works based on the Software; and
+- distribute the Software or modified versions.
+
+These permissions apply only to **Noncommercial Use**.
+
+Commercial Use is not permitted under this license and requires separate written permission or a separate commercial license from the Copyright Holder.
+
+## 2. Noncommercial Use
+
+“Noncommercial Use” means use that is not intended for or directed toward commercial advantage, monetary compensation, revenue generation, or material business benefit.
+
+Examples of permitted Noncommercial Use include:
+
+- personal use;
+- hobby projects;
+- experimentation;
+- private study;
+- education;
+- academic or public-interest research;
+- noncommercial community projects; and
+- development or testing without an anticipated commercial application.
+
+Receiving voluntary donations that are not required in exchange for access to the Software does not by itself make a use commercial.
+
+## 3. Commercial Use
+
+“Commercial Use” includes, without limitation:
+
+- selling, licensing, renting, or charging for the Software;
+- incorporating the Software into a product that is sold, rented, licensed, or commercially supplied;
+- incorporating the Software into a commercial service;
+- using the Software to provide paid services;
+- operating the Software as part of a paid, subscription, hosted, cloud, SaaS, API, or other commercial service;
+- using the Software in manufacturing or commercial production;
+- using the Software internally where it provides a material business benefit;
+- using the Software to develop, test, manufacture, operate, or support a commercial product or service; or
+- otherwise using the Software for commercial advantage or financial gain.
+
+It does not matter whether the Software itself is sold or separately charged for.
+
+Commercial Use requires a separate license from the Copyright Holder.
+
+## 4. Modifications and Copyleft
+
+You may modify the Software for Noncommercial Use.
+
+If you distribute a modified version, you must:
+
+1. license the modified version under this same license;
+2. provide its complete Corresponding Source;
+3. retain existing copyright and license notices; and
+4. clearly state that the Software has been modified.
+
+You may not distribute a modified version under proprietary terms or under terms that remove or weaken the rights and obligations of this license.
+
+These requirements apply to derivative works of the Software.
+
+They do not apply merely because independent software is stored, packaged, installed, or distributed alongside the Software.
+
+## 5. Distribution and Source Code
+
+You may distribute the Software or modified versions only for Noncommercial Use.
+
+When distributing source code, you must include this license.
+
+When distributing the Software in binary, executable, firmware, object-code, or other non-source form, you must also:
+
+- provide the Corresponding Source with it; or
+- provide a clear and accessible means for recipients to obtain the Corresponding Source without charge.
+
+The Corresponding Source must be licensed under this same license.
+
+Reasonable charges limited to physical media, postage, or data-transfer costs do not by themselves constitute Commercial Use.
+
+## 6. Network and Remote Use
+
+If you modify the Software and allow another person to interact with, control, invoke, access, or use the modified Software remotely through a computer or communications network, you must give those users a clear and accessible way to obtain the Corresponding Source of the version being operated.
+
+This requirement applies even when no copy of the Software is distributed to the user.
+
+This includes, for example:
+
+- web applications;
+- network services;
+- remotely accessible APIs;
+- cloud or hosted applications;
+- network-accessible device services;
+- remote processing services;
+- applications that rely upon a modified server-side version of the Software; and
+- devices that communicate with or rely upon a remotely operated modified version of the Software.
+
+The Corresponding Source offered to remote users must:
+
+1. correspond to the version actually being operated;
+2. include the modifications being used;
+3. be available without charge;
+4. be provided in the preferred form for making modifications; and
+5. be licensed under this same license.
+
+The means of obtaining the Corresponding Source must be reasonably visible and accessible to users of the modified Software.
+
+Commercial operation of the Software through a network remains Commercial Use and is not permitted under this license.
+
+## 7. No Circumvention
+
+You may not intentionally structure, divide, proxy, relay, host, encapsulate, or otherwise arrange a modified version of the Software for the purpose of avoiding the source-sharing requirements of this license.
+
+Dividing functionality between applications, processes, devices, servers, or network endpoints does not remove the source-sharing obligations for modifications to the Software.
+
+However, independent software does not become subject to this license merely because it communicates with the Software through a normal interface or protocol.
+
+## 8. Corresponding Source
+
+“Corresponding Source” means the source code and other materials reasonably necessary to understand, modify, build, install, and run the version of the Software being distributed or remotely operated.
+
+Corresponding Source includes, where applicable:
+
+- modifications to the Software;
+- source files;
+- build scripts;
+- configuration files;
+- installation scripts;
+- interface definitions;
+- protocol definitions created specifically for the modified Software; and
+- other materials specifically required to build or operate the modified version.
+
+Corresponding Source must be provided in the preferred form for making modifications.
+
+Obfuscated, encrypted, minified, generated, or intermediate code does not qualify as Corresponding Source when a preferred editable source form exists.
+
+Corresponding Source does not include general-purpose tools, operating systems, libraries, or other components normally available independently of the Software.
+
+## 9. No Additional Restrictions
+
+You may not impose legal or technical restrictions that prevent recipients from exercising the rights granted by this license.
+
+You may not:
+
+- remove the Noncommercial restriction;
+- remove the source-sharing requirements;
+- prevent recipients from modifying permitted copies;
+- distribute the Software under incompatible proprietary terms; or
+- use technical measures for the purpose of preventing recipients from exercising rights granted by this license.
+
+## 10. Separate Commercial Licensing
+
+The Copyright Holder may offer the Software under separate commercial license terms.
+
+A commercial license may permit activities prohibited by this license, including:
+
+- commercial use;
+- incorporation into commercial products;
+- commercial distribution;
+- internal business use;
+- proprietary modifications;
+- closed-source distribution; or
+- commercial hosted or network services.
+
+Nothing in this license limits the Copyright Holder's right to offer the Software under different terms.
+
+A separately granted commercial license does not change the rights of copies already distributed to others under this license.
+
+## 11. Patent Rights
+
+To the extent that the Copyright Holder owns or controls patent claims necessarily infringed by permitted use of the Software, the Copyright Holder grants you a royalty-free patent license covering those claims solely for activities permitted under this license.
+
+No patent license is granted for Commercial Use.
+
+If you or an organization acting on your behalf initiates a patent infringement claim alleging that the Software infringes a patent owned or controlled by you, the patent rights granted to you under this section terminate.
+
+## 12. Notices and Attribution
+
+You must retain copyright notices, attribution notices, and this license in copies of the Software.
+
+Anyone receiving the Software from you must receive a copy of this license or a clear means of obtaining it.
+
+When Section 6 applies, remote users must also be provided with a clear means of obtaining the Corresponding Source.
+
+## 13. Termination
+
+Your rights under this license terminate automatically if you materially violate its terms.
+
+For a first violation, your rights will be reinstated if you:
+
+1. stop the violation;
+2. take reasonable steps to correct its effects; and
+3. return to compliance within 30 days after receiving written notice.
+
+The Copyright Holder is not required to offer reinstatement for repeated or deliberate violations.
+
+Termination of your rights does not terminate rights previously granted to other recipients who remain in compliance with this license.
+
+## 14. No Trademark Rights
+
+This license does not grant permission to use trademarks, trade names, product names, logos, or branding belonging to the Copyright Holder except as reasonably necessary to identify the origin of the Software or provide required attribution.
+
+## 15. Rights Provided by Law
+
+This license does not restrict rights that you may have independently under applicable law and that do not require permission from the Copyright Holder.
+
+All rights not expressly granted by this license are reserved.
+
+## 16. Disclaimer of Warranty
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+YOU ACCEPT ALL RISK ARISING FROM YOUR USE OF THE SOFTWARE.
+
+## 17. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER AND CONTRIBUTORS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR OTHER DAMAGES ARISING FROM THE SOFTWARE OR ITS USE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+## 18. Definitions
+
+**“Software”** means CMY Labs Material made available under this license, including derivatives of that material. Third-Party Material is excluded from this grant and retains its applicable upstream terms as set out in Section 20.
+
+**“Copyright Holder”** means CMY Labs PTY LTD, the rights holder identified in this release, only to the extent of rights it owns or is authorized to license. References to the “PolyDye Copyright Holder” mean this same rights holder. This definition does not claim ownership of Third-Party Material.
+
+**“You”** means the individual or entity exercising rights granted by this license.
+
+**“Modify”** means altering, adapting, extending, translating, or creating a derivative work based upon the Software.
+
+**“Distribute”** means providing a copy of the Software or a modified version to another person or entity.
+
+**“Modified Software”** means the Software containing modifications or a derivative work based upon the Software.
+
+## 19. License Identification
+
+The name of this license is:
+
+**Noncommercial Copyleft License 1.0**
+
+Custom license shorthand:
+
+**NCL-1.0**
+
+SPDX custom reference: **LicenseRef-NCL-1.0**. The complete text is also supplied in `LICENSES/LicenseRef-NCL-1.0.txt`.
+
+This is a source-available license containing a restriction on Commercial Use.
+
+It is not the GNU General Public License, GNU Affero General Public License, PolyForm Noncommercial License, or an Open Source Initiative approved license.
+
+## 20. Scope, Third-Party Materials, and Modifications
+
+### 20.1 CMY Labs Material — NCL-only
+
+“CMY Labs Material” means the original copyrightable material in this release owned
+by CMY Labs PTY LTD or licensed by CMY Labs PTY LTD with authority to apply these terms, including
+its copyrightable additions and modifications within files that also contain
+Third-Party Material.
+
+CMY Labs Material is offered exclusively under Noncommercial Copyleft License 1.0
+(NCL-1.0), except to the extent of a separate grant from the Copyright Holder
+expressly identifying the CMY Labs Material and alternative terms to which it
+applies. In particular, retained Beerware, MIT, Apache, CC0, public-domain, or other
+upstream notices do not grant an alternative license to CMY Labs Material.
+
+This reservation applies throughout the repository, including mixed source files,
+headers, frontend code, build/configuration files, documentation, and accompanying
+materials, but only to expression within those materials that CMY Labs PTY LTD has the
+right to license.
+
+### 20.2 Third-Party Material — upstream permissions preserved
+
+“Third-Party Material” means material originating from other rights holders,
+including their protected expression retained in adapted or modified code.
+It remains governed by its applicable upstream license or public-domain status.
+Inclusion in this repository does not relicense it, revoke upstream permissions,
+or subject its independent use to the Noncommercial restriction.
+
+In particular, original material authored by Jeroen Domburg from
+`printercart_simple` (https://github.com/Spritetm/printercart_simple) retains
+THE BEER-WARE LICENSE (Revision 42), including when retained inside modified
+files. Recipients may exercise its original permissions independently, including
+commercial use, subject to retaining the Beerware notice.
+
+Required upstream copyright, license, attribution, and modification notices
+must be preserved. Further imports within a local modification remain
+Third-Party Material; being absent from an earlier upstream version does not
+make them CMY Labs Material. Mechanical edits, facts, and other material lacking
+independent copyright protection are not made exclusively NCL by a notice.
+
+### 20.3 Mixed files and combined distributions
+
+The respective terms apply to the respective contributions. This is not an offer
+to choose between NCL-1.0 and an upstream license for an entire mixed file or
+distribution. Upstream permission alone does not authorize use of CMY Labs Material contained in the combined version. Commercial use of that CMY Labs Material requires separate permission as described in Section 10.
+
+Historical upstream headers retained in mixed files, including upstream SPDX
+identifiers, describe upstream material only. The adjacent scope notice and the
+license manifest identifies this distinction. They do not withdraw any upstream
+rights. File-wide SPDX expressions must not be inferred from a retained
+upstream-only identifier when other contributions are present.
+
+### 20.4 Controlling scope rule
+
+If another provision of this license appears to require relicensing Third-Party
+Material, or restrict permissions granted by its upstream terms, this Section 20
+controls. The same-license, Corresponding Source, Noncommercial Use, and
+no-additional-restrictions obligations apply to NCL-covered material and do not
+change third-party license grants. Source supplied to satisfy this license must
+retain the appropriate third-party terms for any Third-Party Material it includes.
+
+`licensing/MANIFEST.json` identifies the files, upstream components, and
+contribution scopes in this distribution. `THIRD_PARTY_NOTICES.md` and
+`LICENSES/` supply the corresponding upstream attribution and license texts.
+The listed third-party terms apply to their identified upstream material.
+They do not grant alternative rights in CMY Labs Material.

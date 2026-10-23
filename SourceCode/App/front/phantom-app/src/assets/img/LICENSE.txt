@@ -1,0 +1,16 @@
+Copyright 2026 CMY Labs PTY LTD
+SPDX-License-Identifier: LicenseRef-NCL-1.0
+
+The following original CMY Labs PTY LTD images are licensed under NCL-1.0 ONLY.
+Paths are relative to the repository root:
+
+- front/phantom-app/src/assets/img/bedicon.png
+- front/phantom-app/src/assets/img/no_image.png
+- front/phantom-app/src/assets/img/nozzleicon.png
+- front/phantom-app/src/assets/img/printicon.png
+- front/phantom-app/src/assets/img/speedicon.png
+
+Complete terms: LICENSE at the repository root. Frontend distributions include
+the same license at licenses/LICENSE, relative to the build output directory.
+File origins and license scopes are recorded in licensing/MANIFEST.json.
+These terms do not grant trademark rights.

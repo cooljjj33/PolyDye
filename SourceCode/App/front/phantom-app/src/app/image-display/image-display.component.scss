@@ -1,0 +1,111 @@
+/*
+ * SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+ * SPDX-License-Identifier: LicenseRef-NCL-1.0
+ * 
+ * Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+ * Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;  
+}
+.container {
+  display: flex;
+  justify-content: flex-start;  
+  align-items: flex-start;
+  max-width: 1400px;
+
+  padding: 20px;
+  border: 0;
+}
+
+.file-input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.image-canvas {
+  display: block;
+  border: 1px solid #ddd;
+}
+
+.controls-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.canvas-section {
+  flex: 2;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+.controls > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.arrow-curved {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-right: 9px solid blue; 
+  transform: rotate(10deg);
+
+  &:after {
+    content: "";
+    position: absolute;
+    border: 0 solid transparent;
+    border-top: 3px solid blue; 
+    border-radius: 20px 0 0 0;
+    top: -12px;
+    left: -9px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+  }
+}
+
+.triangle-bottom-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid blue;
+  border-left: 10px solid transparent;
+}
+
+.stitched {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 3px dashed blue; 
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

@@ -1,0 +1,106 @@
+<!--
+SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+SPDX-License-Identifier: LicenseRef-NCL-1.0
+
+Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+-->
+<div #printerModal id="printerModal" class="w3-modal" [ngClass]="{'w3-show': isModalOpen}">
+  <div class="w3-modal-content  background-light-gray padding-bottom-small modal-content-medium">
+    <div class="w3-container">
+      <span (click)="closeModal()" class="w3-button w3-display-topright">&times;</span>
+      <h2>Printer Settings</h2>
+      <form (ngSubmit)="onSubmit()">
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Extruder Feedrate:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.extruder_fr" type="number"
+              id="extruder_fr" name="extruder_fr">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Travel Feedrate:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.travel_fr" type="number"
+              id="travel_fr" name="travel_fr">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Bed Size X:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.bedsize_x" type="number"
+              id="bedsize_x" name="bedsize_x">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Bed Size Y:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.bedsize_y" type="number"
+              id="bedsize_y" name="bedsize_y">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Bed Size Z:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.bedsize_z" type="number"
+              id="bedsize_z" name="bedsize_z">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Camera URL:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.cam_url" type="text" id="cam_url"
+              name="cam_url">
+          </div>
+        </div>
+
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Model X Offset:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.coord_x_adj" type="text"
+              id="coord_x_adj" name="coord_x_adj">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">Model Y Offset:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.coord_y_adj" type="text"
+              id="coord_y_adj" name="coord_y_adj">
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-col s4">
+            <label for="ssid">PrintHead Alignment Offset:</label>
+          </div>
+          <div class="w3-col s8">
+            <input class="w3-input w3-left w3-twothird" [(ngModel)]="printerSettings.align_adj" type="text"
+              id="align_adj" name="align_adj">
+          </div>
+        </div>
+
+        <div class="w3-row">
+          <div class="w3-col s12">
+            <button type="button" class="w3-button w3-red" (click)="closeModal()">Cancel</button>
+            <button type="submit" class="w3-button w3-green">Save</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

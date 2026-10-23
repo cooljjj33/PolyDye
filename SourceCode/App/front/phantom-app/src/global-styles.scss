@@ -1,0 +1,120 @@
+/*
+ * SPDX-FileCopyrightText: 2026 CMY Labs PTY LTD
+ * SPDX-License-Identifier: LicenseRef-NCL-1.0
+ * 
+ * Original CMY Labs PTY LTD content, licensed under NCL-1.0 ONLY.
+ * Terms: repository-root LICENSE. Contribution scopes: licensing/MANIFEST.json.
+ */
+.selected {
+  border: 2px solid black;
+}
+
+html,body {
+
+  margin: 0 !important;
+  height:100%;
+}
+
+@media not print {
+  .shrinkToFit {
+    width: 100%;
+  }
+}
+
+img {
+  display: block;
+}
+
+.scrollable-div {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 70%;
+
+  margin-top: 5px;
+}
+
+.container {
+  width: 100%;
+
+  box-sizing: border-box;
+  border: 1px solid black;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 50px);
+  flex-wrap: wrap;
+}
+
+.top-bar {
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.top-bar .icon {
+  font-size: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 50%;
+    height: calc((100vh - 50px) / 3);
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 33.33%;
+    height: calc((100vh - 50px) / 2);
+  }
+}
+
+.w3-blue {
+  background-color: #3d4c5f !important;
+}
+
+.blue-gray {
+  background-color: #a8a8a8 !important;
+}
+
+h2,span{
+  color: black;
+}
+
+h3{
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  color: black;
+}
+
+.font-large {
+  font-size: 1.25em;
+}
+
+.margin-top-s {
+  margin-top: 20px;
+}
+
+.mid-gray {
+  background-color: #e0e0e0;
+}
+
+.text-black {
+  color: #000;
+}
+
+textarea {
+  width: 100%;
+  height:95%;
+}
+
+.font-size-normal {
+
+}

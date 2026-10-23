@@ -1,0 +1,7 @@
+W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes
+Source: https://www.w3schools.com/w3css/4/w3.css
+Permission source: https://www.w3schools.com/w3css/w3css_downloads.asp
+Permission statement retrieved 2026-10-20:
+W3.CSS is free to use. No license is necessary.
+
+The embedded normalize.css extract is MIT-licensed; see normalize-MIT.txt.
